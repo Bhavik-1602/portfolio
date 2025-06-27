@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+/* Contact Links Styles */
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 200ms ease-in-out;
+  min-width: 200px;
+}
+
+.contactLink:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  background-color: var(--btn-hover-color, var(--btn-color));
+}
+
+.contactLink:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (width >= 800px) {
+  .contactLinks {
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .contactLink {
+    min-width: 250px;
+    font-size: 20px;
+    padding: 25px 40px;
+  }
+}
