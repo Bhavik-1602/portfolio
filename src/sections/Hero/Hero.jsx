@@ -52,7 +52,7 @@ function Hero() {
           </a>
         </span>
         <div style={{marginTop: '15px'}}>
-          <a href={"https://drive.google.com/file/d/1S2AbgVY43ERJOE_v9BL5_UdOkr4Qt7Dn/view?usp=drive_link"} target="_blank">
+          <a href={"https://drive.google.com/file/d/1r-u23J5mv1FsMknFlybtHv7irm22D5pJ/view?usp=drive_link"} target="_blank">
             <button className="hover">Resume</button>
           </a>
         </div>
